@@ -1,0 +1,212 @@
+.detail-cont {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+
+.detail-movie-desc {
+    max-width: 800px;
+}
+
+.title {
+    color: white;
+}
+
+.title span {
+    color: rgb(255, 153, 0);
+    font-size: 30px;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+}
+
+.genre {
+    color: white;
+    font-size: 20px;
+}
+
+.genre span {
+    color: rgb(255, 153, 0);
+    font-size: 30px;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+}
+
+ .detail-movie-desc span {
+    color: rgb(255, 153, 0);
+    font-size: 30px;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    font-weight: bold;
+  } 
+
+  .detail-movie-desc p {
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 1140px) {
+    .detail-movie-desc {
+        max-width: 700px;
+    }
+
+    .title span {
+        font-size: 20px;
+    }
+    
+    .genre {
+        color: white;
+        font-size: 18px;
+    }
+    
+    .genre span {
+        font-size: 25px;
+    }
+    
+     .detail-movie-desc span {
+        font-size: 25px;
+      } 
+    
+      .detail-movie-desc p {
+        font-size: 18px;
+    }
+}
+
+
+
+@media only screen and (max-width: 1030px) {
+    .detail-movie-desc {
+        max-width: 700px;
+    }
+
+    .title span {
+        font-size: 15px;
+    }
+    
+    .genre {
+        color: white;
+        font-size: 16px;
+    }
+    
+    .genre span {
+        font-size: 20px;
+    }
+    
+     .detail-movie-desc span {
+        font-size: 20px;
+      } 
+    
+      .detail-movie-desc p {
+        font-size: 15px;
+        max-width: 600px;
+    }
+    .detail-movie-poster img {
+        width: 250px;
+    }
+}
+
+
+
+@media only screen and (max-width: 880px) {
+    .detail-movie-desc {
+        max-width: 600px;
+    }
+
+    .title span {
+        font-size: 12px;
+    }
+    
+    .genre {
+        color: white;
+        font-size: 14px;
+    }
+    
+    .genre span {
+        font-size: 18px;
+    }
+    
+     .detail-movie-desc span {
+        font-size: 18px;
+      } 
+    
+      .detail-movie-desc p {
+        font-size: 12px;
+        max-width: 420px;
+    }
+    .detail-movie-poster img {
+        width: 240px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .detail-movie-desc {
+        max-width: 600px;
+    }
+
+    .title span {
+        font-size: 10px;
+    }
+    
+    .genre {
+        color: white;
+        font-size: 12px;
+    }
+    
+    .genre span {
+        font-size: 15px;
+    }
+    
+     .detail-movie-desc span {
+        font-size: 15px;
+      } 
+    
+      .detail-movie-desc p {
+        font-size: 10px;
+        max-width: 380px;
+        margin-top: 5px;
+    }
+    .detail-movie-poster img {
+        width: 240px;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+
+    .detail-cont {
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+
+    .detail-movie-desc {
+        max-width: 600px;
+    }
+
+    .title span {
+        font-size: 10px;
+    }
+    
+    .genre {
+        color: white;
+        font-size: 14px;
+    }
+    
+    .genre span {
+        font-size: 17px;
+    }
+    
+     .detail-movie-desc span {
+        font-size: 17px;
+      } 
+    
+      .detail-movie-desc p {
+        font-size: 12px;
+        max-width: 470px;
+        margin-top: 5px;
+    }
+    .detail-movie-poster img {
+        width: 240px;
+        margin-top: 20px;
+    }
+}
